@@ -338,6 +338,210 @@ export class GenericService {
           ]
         }
       ]
+    },
+    {
+      code: 'muestras_a_ciegas',
+      name: 'Muestras a Ciegas',
+      path: '/muestras_a_ciegas',
+      section: [
+        {
+          id: 1,
+          name: 'Documentos Muestras a Ciegas',
+          files: [
+
+          ]
+        }
+      ]
+    },
+    {
+      code: 'normas',
+      name: 'Normas',
+      path: '/normas',
+      section: [
+        {
+          id: 1,
+          name: 'Lista de Normas',
+          files: [
+            {
+              id: 1,
+              title: 'GTC-115. Incertidumbre para principiantes',
+              path: 'assets/documents/9.normas/gtc-115.pdf'
+            },
+            {
+              id: 2,
+              title: 'Norma ISO 9001 2015',
+              path: 'assets/documents/9.normas/ISO-9001.pdf'
+            },
+            {
+              id: 3,
+              title: 'NTC-330. Requisitos Generales para Alambrón y Alambre de Acero AL C y Acero Aleado',
+              path: 'assets/documents/9.normas/NTC-330.pdf'
+            },
+            {
+              id: 4,
+              title: 'NTC-2031. Instrumentos de Pesaje de Funcionamiento no Automático - Requisitos Metrológicos y Técnicos',
+              path: 'assets/documents/9.normas/NTC-2031.pdf'
+            },
+            {
+              id: 5,
+              title: 'NTC-5806. Alambre de Acero Liso y Grafilado y Mallas Electrosoldadas para Refuerzo de Concreto',
+              path: 'assets/documents/9.normas/NTC-5806.pdf'
+            },
+            {
+              id: 6,
+              title: 'NTC-1724. Metrología Cintas Métricas Comerciales',
+              path: 'assets/documents/9.normas/NTC-1724.pdf'
+            },
+            {
+              id: 7,
+              title: 'NTC-4303. Pie de Rey - Requisitos y Ensayos',
+              path: 'assets/documents/9.normas/NTC-4303.pdf'
+            },
+            {
+              id: 8,
+              title: 'NTC-4352. Micrómetros para Mediciones exteriores - Construcción Normal de Conceptos, Requisitos y Ensayos',
+              path: 'assets/documents/9.normas/NTC-4352.pdf'
+            },
+            {
+              id: 9,
+              title: 'NTC-4537. Requisitos Generales para Barras, Chapas, Perfiles y Tablestacos de Acero Laminado de Calidad Estructural',
+              path: 'assets/documents/9.normas/NTC-4537.pdf'
+            },
+            {
+              id: 10,
+              title: 'NTC-5806. Alambre de Acero Liso y Grafilado y Mallas Electrosoldads para refuerxo de Concreto',
+              path: 'assets/documents/9.normas/NTC-5806.pdf'
+            },
+            {
+              id: 11,
+              title: 'Tabla NTC-5806',
+              path: 'assets/documents/9.normas/NTC-5806_tabla.pdf'
+            },
+            {
+              id: 12,
+              title: 'NTC-ISO-IEC-17025-2017 Competencia de Laboratorios',
+              path: 'assets/documents/9.normas/NTC-ISO-IEC-17025-2017.pdf'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      code: 'no_conformes',
+      name: 'No Conformes',
+      path: '/no_conformes',
+      section: [
+        {
+          id: 1,
+          name: 'Documentos - No Conformes',
+          files: [
+            {
+              id: 1,
+              title: 'Acta de Liberación',
+              path: 'assets/documents/10.no_conformes/acta_liberacion.pdf'
+            },
+            {
+              id: 2,
+              title: 'Matriz de Disposición Final',
+              path: 'assets/documents/10.no_conformes/matriz_de_disposicion_final.pdf'
+            },
+            {
+              id: 3,
+              title: 'Registro de Salidas no Conformes',
+              path: 'assets/documents/10.no_conformes/registro_salidas_no_conformes.pdf'
+            },
+            {
+              id: 4,
+              title: 'Registro y Análisis de Acciones Correctivas, Preventivas y/o Mejora',
+              path: 'assets/documents/10.no_conformes/analisis_acciones.pdf'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      code: 'pqr',
+      name: 'PQR',
+      path: '/pqr',
+      section: [
+        {
+          id: 1,
+          name: 'Formatos PQR',
+          files: [
+            {
+              id: 1,
+              title: 'Encuesta de Satisfacción de Clientes',
+              path: 'assets/documents/11.pqr/encuesta_satisfaccion_clientes.pdf'
+            },
+            {
+              id: 2,
+              title: 'Registro de Peticiones, Quejas y Reclamos (PQR)',
+              path: 'assets/documents/11.pqr/registro_de_pqr.pdf'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      code: 'aseguramiento_metrologico_y_verificacion',
+      name: 'Aseguramiento Metrológico y Verificación',
+      path: '/aseguramiento_metrologico_y_verificacion',
+      section: [
+        {
+          id: 1,
+          name: 'Documentos de Aseguramiento Metrológico y Verificación',
+          files: [
+            {
+              id: 1,
+              title: 'Ángulo de Inclinación de Grafil',
+              path: 'assets/documents/12.aseguramiento_metrologico_y_verificacion/angulo_inclinacion_grafil.pdf'
+            },
+            {
+              id: 2,
+              title: 'Aseguramiento Metrológico 2021',
+              path: 'assets/documents/12.aseguramiento_metrologico_y_verificacion/aseguramiento_metrologico_2021.pdf'
+            },
+            {
+              id: 3,
+              title: 'Control de Diámetro Bulones de Doblado',
+              path: 'assets/documents/12.aseguramiento_metrologico_y_verificacion/control_diametro_bulones.pdf'
+            },
+            {
+              id: 4,
+              title: 'Control Instrumentos de Medición',
+              path: 'assets/documents/12.aseguramiento_metrologico_y_verificacion/control_instrumentos_de_medicion.pdf'
+            },
+            {
+              id: 5,
+              title: 'Fechas de Calibración',
+              path: 'assets/documents/12.aseguramiento_metrologico_y_verificacion/fechas_de_calibracion.pdf'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      code: 'auditorias',
+      name: 'Auditorías',
+      path: '/auditorias',
+      section: [
+        {
+          id: 1,
+          name: 'Documentos de Auditoría',
+          files: [
+            {
+              id: 1,
+              title: 'Comparativo Ejemplo',
+              path: 'assets/documents/13.auditorias/comparativo_ejemplo.pdf'
+            },
+            {
+              id: 2,
+              title: 'Comparativo Laboratorio CDA-CONCRELAB',
+              path: 'assets/documents/13.auditorias/comparativo_cda_concrelab.pdf'
+            }
+          ]
+        }
+      ]
     }
   ]
 
