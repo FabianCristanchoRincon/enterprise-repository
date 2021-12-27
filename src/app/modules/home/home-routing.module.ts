@@ -3,12 +3,16 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'repositorio',
+    path: 'calibracion',
     loadChildren: ()=> import('../../modules/repository/repository.module').then(m=> m.RepositoryModule)
   },
   {
+    path: 'repositorio',
+    loadChildren: ()=> import('../../modules/generic-repo/generic-repo.module').then(m=> m.GenericRepoModule)
+  },
+  {
     path: '**',
-    redirectTo: 'repositorio'
+    redirectTo: 'calibracion'
   }
 ];
 
