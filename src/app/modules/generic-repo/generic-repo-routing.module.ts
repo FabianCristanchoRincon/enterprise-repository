@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { FileDetailsComponent } from './pages/file-details/file-details.component';
 import { ListFilesComponent } from './pages/list-files/list-files.component';
 
 const routes: Routes = [
@@ -10,6 +11,10 @@ const routes: Routes = [
   {
     path: ':code',
     component: ListFilesComponent
+  },
+  {
+    path: ':code/:idSection/:idFile',
+    component: FileDetailsComponent
   }
 ];
 

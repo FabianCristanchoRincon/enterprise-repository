@@ -59,18 +59,13 @@
                       <div class="info-box">
                         <span class="info-box-icon bg-danger elevation-1"><i class="fas fa-file-pdf"></i></span>
                         <div class="info-box-content">
-                          <span class="info-box-text"><strong>{{file.title}}</strong></span>
-                          <a href="" class="product-title">Ver más</a>
+                          <span class="info-box-text truncate"><strong [title]="file.title">{{file.title}}</strong></span>
+                          <a [routerLink]="section.id+'/'+file.id" class="product-title">Ver más</a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-
-
-
-
-
                 <!-- /.col -->
               </div>
               <!-- /.row -->
@@ -82,9 +77,6 @@
         <!-- /.col -->
       </div>
       <!-- /.row -->
-
-
-
       <!-- /.row -->
     </div><!--/. container-fluid -->
   </section>

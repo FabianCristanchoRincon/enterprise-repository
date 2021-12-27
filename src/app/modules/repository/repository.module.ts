@@ -18,7 +18,8 @@ import { SafePipe } from './pipes/safe.pipe';
     RepositoryRoutingModule
   ],
   exports: [
-    RepositoryPageComponent
+    RepositoryPageComponent,
+    SafePipe
   ]
 })
 export class RepositoryModule { }

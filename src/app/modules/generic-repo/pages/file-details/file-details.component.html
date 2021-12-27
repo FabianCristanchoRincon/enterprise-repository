@@ -1,0 +1,9 @@
+<div *ngIf="file" class="content-wrapper pt-2">
+  <h2 class="mb-3 text-center text-primary">{{file.title}}</h2>
+
+  <div class="d-flex justify-content-center mb-5">
+    <object [data]="file.path | safe" type="application/pdf" width="700" height="600">
+        <embed [src]="file.path | safe"  alt="pdf">
+    </object>
+  </div>
+</div>

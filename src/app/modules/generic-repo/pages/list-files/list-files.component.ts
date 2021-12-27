@@ -23,7 +23,6 @@ export class ListFilesComponent implements OnInit {
     .subscribe(params => {
       let code = params.get('code');
       this.repo = this.genericService.getRepoByCode(code);
-      console.log(this.repo);
     })
   }
 
