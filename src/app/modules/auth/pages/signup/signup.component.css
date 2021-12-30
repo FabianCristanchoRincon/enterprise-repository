@@ -1,0 +1,9 @@
+.background {
+  background-color: #202021;
+  opacity: 1;
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #202021 9px ), repeating-linear-gradient( #00000055, #000000 );
+}
+
+.card-login {
+  background: #272727;
+}

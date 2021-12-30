@@ -7,13 +7,13 @@ const routes: Routes = [
     loadChildren: ()=> import('../../modules/repository/repository.module').then(m=> m.RepositoryModule)
   },
   {
-    path: 'repositorio',
+    path: '',
     loadChildren: ()=> import('../../modules/generic-repo/generic-repo.module').then(m=> m.GenericRepoModule)
   },
-  {
-    path: '**',
-    redirectTo: 'calibracion'
-  }
+  // {
+  //   path: '**',
+  //   redirectTo: 'calibracion'
+  // }
 ];
 
  @NgModule({
